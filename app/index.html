@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, shrink-to-fit=no, minimal-ui">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EDP Example App</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td style="height: 50px">
+            <h1>EDP Example App</h1>
+            <hr/>
+        </td>
+    </tr>
+    <tr>
+        <td style="height: 25px">
+            Choose Request:
+            <button onclick="dispatch('meter');">Meter</button>
+            <button onclick="dispatch('location');">Location</button>
+            <button onclick="dispatch('data');">Data</button>
+        </td>
+    </tr>
+    <tr>
+        <td style="position: relative">
+            <textarea id="result"></textarea>
+        </td>
+    </tr>
+</table>
+<script src="js/main.js"></script>
+</body>
+</html>
